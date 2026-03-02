@@ -1,0 +1,12 @@
+# Ignore .NET files
+bin/
+obj/
+*.user
+*.suo
+*.sln
+
+# Ignore test results
+TestResults/
+
+# Project files
+*.csproj
