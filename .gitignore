@@ -1,12 +1,53 @@
-# Ignore .NET files
+# Build results
 bin/
 obj/
+*.o
+*.a
+*.lib
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
 *.user
-*.suo
-*.sln
+*.userprefs
 
-# Ignore test results
+# Rider
+.idea/
+*.sln.iml
+
+# Runtime
+.runtime/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Local app data
+AppData/
+*.molecule
+*.json.backup
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# Distribution
+publish/
+dist/
+builds/
+
+# Test results
 TestResults/
+*.trx
 
-# Project files
-*.csproj
+# Temporary files
+*.tmp
+*.temp
+~*
